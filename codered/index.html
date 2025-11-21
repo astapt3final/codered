@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLM Safety Gateway</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles"></canvas>
+
+  <div class="hero">
+    <div class="container">
+      <h1>LLM Safety Gateway</h1>
+      <p class="subtitle">Check if your prompt is safe or flagged 🚨</p>
+
+      <textarea id="prompt" placeholder="Type your prompt here..."></textarea>
+      <button id="checkBtn">Check Safety</button>
+
+      <div id="result" class="result-box">
+        <p class="info-text">Your result will appear here.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="particles.js"></script>
+
+</body>
+</html>
